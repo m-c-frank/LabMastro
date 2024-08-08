@@ -3,7 +3,7 @@ from labmastro.power_supply.hanmatek.hm.control import HanmatekHmControl
 
 
 if __name__ == "__main__":
-    instrument = HanmatekHmInstrument(port="/dev/tty.usbserial-214210")
+    instrument = HanmatekHmInstrument(port="/dev/ttyUSB0")
 
     dc_control = HanmatekHmControl(instrument)
 
